@@ -1,0 +1,4 @@
+2017309390;Luis Bryan;Cabello Ortiz;Ciclo 2; Estructura de datos;Administración de redes
+2017322579;Juan Ramiro;Ordoñez Herrera;Ciclo 2;Estructura de datos;Administración de redes
+2017149310;Luis Nolberto;Acosta Mayta;Ciclo 2;Estructura de datos;Administración de redes
+2017287698;Jean Pierre;Vivar Loayza;Ciclo 2;Estructura de datos;Administración de redes

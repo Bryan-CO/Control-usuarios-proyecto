@@ -1,0 +1,6 @@
+D:\Proyectos Photoshop, Sony Vegas, etc\Programas C#\Proyecto_FINAL\Capa_datos\bin\Debug\Capa_datos.dll
+D:\Proyectos Photoshop, Sony Vegas, etc\Programas C#\Proyecto_FINAL\Capa_datos\bin\Debug\Capa_datos.pdb
+D:\Proyectos Photoshop, Sony Vegas, etc\Programas C#\Proyecto_FINAL\Capa_datos\obj\Debug\Capa_datos.csproj.AssemblyReference.cache
+D:\Proyectos Photoshop, Sony Vegas, etc\Programas C#\Proyecto_FINAL\Capa_datos\obj\Debug\Capa_datos.csproj.CoreCompileInputs.cache
+D:\Proyectos Photoshop, Sony Vegas, etc\Programas C#\Proyecto_FINAL\Capa_datos\obj\Debug\Capa_datos.dll
+D:\Proyectos Photoshop, Sony Vegas, etc\Programas C#\Proyecto_FINAL\Capa_datos\obj\Debug\Capa_datos.pdb
