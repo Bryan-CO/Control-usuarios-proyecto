@@ -12,11 +12,17 @@ namespace Capa_datos.DAO
     {
         //Creo e inicializo la lista donde se almacenaran los objetos de usuarios
         List<Usuario> lista_usuarios = new List<Usuario>();
+
+        /*Aquí se almacenarán los usuarios que serán mostrados
+        al iniciar el programa, también los usuarios modificados y/o eliminados*/
+
         List<Usuario> nueva_lista = new List<Usuario>();
+
         //Creo el objeto usuario, esto es equivalente a solo poner por ejemplo: int numero;
         Usuario usuario;
         public bool respuesta;
-        public Usuarios_DAO()
+        public Usuarios_DAO() //Se iniciará el programa leyendo los usuarios existentes, y
+            //agregandolo a la lista "nueva_lista"
         {
             StreamReader sr = new StreamReader("Usuarios.txt");
 
@@ -36,10 +42,8 @@ namespace Capa_datos.DAO
             }
             sr.Close();
         }
-        public int cant() //Este metodo es para verificar que se añadio un nuevo usuario, y me muestre la cantidad de datos en el List
-        {
-            return lista_usuarios.Count();
-        }
+
+        //Este es el método agregar
         public void agregar(String codigo, String user, String pass, String nombre, String apellido, String foto) //Con esto agrego un nuevo usuario
         {
             usuario = new Usuario();
@@ -56,8 +60,9 @@ namespace Capa_datos.DAO
 
             sw.Close();
         }
-        public String[] ingresar(String username, String password) //Ingreso, no olvidar tmb permisos, con un combobox, si es el rol admin o solo un trabajador
-                                                                   //para asi brindar los permisos correspondientes
+
+        //Método de ingresar al sistema (login) comprueba cada usuario del .txt
+        public String[] ingresar(String username, String password) 
         {
             String[] credenciales = null;
             StreamReader sr = new StreamReader("Usuarios.txt");
@@ -84,6 +89,8 @@ namespace Capa_datos.DAO
 
             return credenciales;
         }
+
+        //Con este click podremos
         public List<Usuario> mostrar()
         {
 

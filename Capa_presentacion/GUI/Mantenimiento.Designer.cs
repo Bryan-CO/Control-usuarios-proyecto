@@ -153,11 +153,9 @@
             this.ola.Panel2.Controls.Add(this.label1);
             this.ola.Panel2.Controls.Add(this.label4);
             this.ola.Panel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ola.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.ola_Panel2_Paint);
             this.ola.Size = new System.Drawing.Size(864, 430);
             this.ola.SplitterDistance = 452;
             this.ola.TabIndex = 7;
-            this.ola.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             // 
             // pictureBox3
             // 

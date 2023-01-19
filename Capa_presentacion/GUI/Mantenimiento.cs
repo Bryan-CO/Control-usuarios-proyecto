@@ -85,28 +85,6 @@ namespace Capa_Presentacion.GUI
             dgv_usuarios.Columns[5].Visible = false;
 
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
-
-        private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button5_Click(object sender, EventArgs e)
         {
             Usuarios_DAO dao = new Usuarios_DAO();
@@ -114,16 +92,6 @@ namespace Capa_Presentacion.GUI
             dao.eliminar(fila);
             mostrar();
             mostrar_datos(0);
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void ola_Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

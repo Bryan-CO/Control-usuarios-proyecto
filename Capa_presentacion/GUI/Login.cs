@@ -52,24 +52,6 @@ namespace Capa_Presentacion
                 
             }
         }
-
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            int cant = login_dao.cant();
-            MessageBox.Show(cant.ToString());
-        }
-
-        private void Login_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Login_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();

@@ -1,4 +1,4 @@
-U110;LCABELLO;123;Luis Bryan;Cabello Ortiz;Imagenes\Foto 1.jpg
+U110;LCABELLOO;123;Luis Bryan;Cabello Ortiz;Imagenes\Foto 1.jpg
 U120;HRAMIRO;123;Juan Ramiro;Ordoñez Herrera;foto_defecto.jpg
 U130;JVilo;123456;Jean Pierre;Vivar Loayza;foto_defecto.jpg
-U140;LAcosta;345;Luis Nolberto;Acosta Mayta;foto_defecto.jpg
+U140;LACOSTA;123;Luis Nolberto;Acosta Mayta;foto_defecto.jpg
